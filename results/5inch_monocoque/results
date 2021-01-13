@@ -1,0 +1,91 @@
+repeats: 5
+failures: 294
+
+x_components =
+
+   -0.1614    0.3228   -0.1614   -0.1614    0.3228   -0.1614
+
+
+y_components =
+
+    0.1364   -0.0000   -0.1364    0.1364    0.0000   -0.1364
+
+
+F =
+
+   -0.8961    0.7575   -5.4271   -0.3892    0.6827    0.1037
+    1.7923   -0.0000   -5.2552   -0.7531   -0.0000   -0.2067
+   -0.8962   -0.7574   -5.4271   -0.3892   -0.6827    0.1037
+   -0.8962    0.7574   -5.4271    0.3892   -0.6827   -0.1037
+    1.7923    0.0000   -5.2552    0.7531   -0.0000    0.2067
+   -0.8961   -0.7575   -5.4271    0.3892    0.6827   -0.1037
+
+
+M =
+
+   -0.2296    0.2296   -1.0000   -0.2289    0.2296    0.2221
+    0.4742    0.0000   -1.0000   -0.2296   -0.0000   -0.2296
+   -0.2296   -0.2296   -1.0000   -0.2289   -0.2296    0.2221
+   -0.2296    0.2296   -1.0000    0.2289   -0.2296   -0.2221
+    0.4742   -0.0000   -1.0000    0.2296   -0.0000    0.2296
+   -0.2296   -0.2296   -1.0000    0.2289    0.2296   -0.2221
+
+
+u_min =
+
+   -0.4842   -1.0000   -1.0000   -1.0000   -1.0000   -1.0000
+
+
+u_max =
+
+     1     1     0     1     1     1
+
+
+f_min =
+
+   -1.2214   -0.6956  -32.2187   -0.7022   -0.6269   -0.1870
+
+
+f_max =
+
+    2.5227    0.6956    0.0000    0.7022    0.6270    0.1870
+
+
+t_loss =
+
+    0.0329
+
+
+hover_u =
+
+   -0.2296
+
+
+Unit vector coordinates for individual beam mounts
+
+First number is the distance inwards along the beam
+Positive indicating lean in toward center hub.
+Second number is the distance perpendicular to the beam
+positive indicating an anticlockwise twist from top view.
+
+#1: in:  0.072   perp: -0.199
+#2: in:  0.000   perp:  0.323
+#3: in: -0.072   perp: -0.199
+#4: in: -0.072   perp:  0.199
+#5: in:  0.000   perp: -0.323
+#6: in:  0.072   perp:  0.199
+
+
+Rotational coordinates for individual beam mounts
+
+First number is the angle inwards along the beam
+Positive indicating lean in toward center hub.
+Second number is the twist around the beam, positive
+indicating an anticlockwise twist looking at the end of beam
+
+#1: in_deg:  4.103   twist_deg: 11.499
+#2: in_deg:  0.000   twist_deg: -18.832
+#3: in_deg: -4.105   twist_deg: 11.499
+#4: in_deg: -4.105   twist_deg: -11.499
+#5: in_deg:  0.000   twist_deg: 18.832
+#6: in_deg:  4.103   twist_deg: -11.499
